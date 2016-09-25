@@ -1,0 +1,12 @@
+<nav>
+  <div class="nav">
+    <ul class="nav nav-left">
+      <li><a href="/" class="nav-brand">Home</a></li>
+    </ul>
+    <ul class="nav nav-right">
+      {% for link in links %}
+      <li><a href="{{link.uri}}" class="{{ 'active' if link.active else ''}}">{{link.name}}</a></li>
+      {% end %}
+    </ul>
+  </div>
+</nav>

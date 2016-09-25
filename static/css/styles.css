@@ -1,0 +1,71 @@
+
+* + * {
+    margin: 0px;
+    font-family: socketregular;
+    background-color: #FFE886;
+}
+
+/* Navigation Bar */
+
+nav {
+    background-color: #333;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0px;
+}
+
+div.nav {
+    width: 60%;
+    float: none;
+    margin: 0 auto;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.nav-right {
+    float: right;
+}
+
+ul.nav-left {
+    float: left;
+}
+
+ul.nav a {
+    display: block;
+    width: 10%;
+    padding: 8px;
+    color: #FFF;
+    text-decoration: none;
+    padding: 15px;
+    /*background-color: #FFD453;*/
+}
+
+ul.nav a:hover {
+    color: #AAA;
+}
+
+ul.nav li {
+    float: inherit;
+    background-color: #333;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #EEE;
+    background-color: #222;
+}
+
+ul.nav a.active {
+    font-weight: bold;
+}

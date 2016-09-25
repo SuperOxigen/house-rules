@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>{{ title }}</title>
+  <!-- <link rel="stylesheet" href="#"> -->
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  {% module Template("partials/header.tt", **headerKwargs) %}
+  {% module Template(bodyTemplate, **bodyKwargs) %}
+  {% module Template("partials/footer.tt", **footerKwargs) %}
+</body>
+</html>
