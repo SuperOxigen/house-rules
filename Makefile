@@ -1,4 +1,4 @@
-# Super Oxigen Blog - Makefile
+# Super Oxigen House-Rules - Makefile
 
 # Easy running and setup of the blog server.
 
